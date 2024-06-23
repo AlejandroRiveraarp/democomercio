@@ -1,0 +1,2 @@
+# democomercio
+Codificación G Rivera.
