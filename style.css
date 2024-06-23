@@ -1,0 +1,114 @@
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&family=Yellowtail&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Open sans';
+}
+
+
+Body{
+    background-color: black;
+}
+
+.P{
+color: aliceblue;
+}
+
+.textopatio{
+    color: whitesmoke;
+   
+}
+
+
+.grid-container{
+    display: grid;
+    column-gap: 10px;
+    grid-template-areas: 
+    "header header""
+    "section section"
+    "menu-iz menu-iz"
+    "main main"
+    "footer footer";
+}
+
+.carousel .img{
+    opacity: 20;
+}
+
+.menu-iz{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    grid-area: main main;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.card{
+background-color: whitesmoke;
+
+    
+fill-opacity: 0,8;
+transition: all 460ms ease;
+cursor: pointer;
+}
+
+.btn{
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 0px 2px 10px rgb(65, 69, 72);
+    transform: translateY(-3%);
+    fill-opacity: 0,8;
+    transition: all 460ms ease;
+}
+
+.card:hover{
+    box-shadow: 0px 2px 10px rgb(48, 54, 58);
+    transform: translateY(-3%);
+}
+
+.footer{
+   background-color: black;
+    
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    
+   
+    
+}
+
+
+.wssp{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.wssp:hover{
+    background-color: rgb(47, 170, 76);
+    box-shadow: 0px 2px 10px rgb(202, 211, 216);
+    transform: translateY(-3%);
+    fill-opacity: 0,8;
+    transition: all 460ms ease;
+}
